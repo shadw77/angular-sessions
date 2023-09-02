@@ -1,0 +1,18 @@
+h5{
+    text-underline-offset: 18px;
+    text-transform: uppercase;
+}
+.col:nth-child(even) .shadow-lg  .card-body{
+    background-color:#0dcaf0;
+}
+.col:nth-child(even) .shadow-lg  .card{
+    background-color: #0dcaf0;
+
+}
+.col:nth-child(odd) .shadow-lg  .card-body{
+    background-color: #CED4DA;
+}
+.col:nth-child(odd) .shadow-lg .card{
+    background-color: #CED4DA;
+
+}

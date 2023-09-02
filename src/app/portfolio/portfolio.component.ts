@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css']
+  styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent {
-
+  Portfolio: Array<string> = [
+    'Web Design',
+    'Mobile Design',
+    'Logo Design',
+    'Web application development',
+    'mobile application development',
+    'PWA development',
+  ];
 }
